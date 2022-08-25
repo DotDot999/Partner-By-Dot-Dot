@@ -103,4 +103,4 @@ client.on("ready", () => {
 });
 
 
-client.login("ODUwODQyNDczNzkwMTc3Mjgw.GUk7I1.A-l7YMnTKpbWkz5OTSZqLqQJWTnuyfgMZEfREM")
+client.login("Token Yo Bot")
