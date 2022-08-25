@@ -1,6 +1,5 @@
 const discord = require("discord.js")
 const client =new discord.Client()
-const prefix = ".";
 const talkedRecently = new Set();    
 
 
@@ -39,7 +38,7 @@ if(vex.author.id===client.user.id) return;
 vex.author.send("https://discord.gg/9sebTXTRFR")
 let s2 = vex .content = vex.content.replace(/@(everyone)/, "🥰").replace(/@(here)/, "🥰");
 let hama1 = client.channels.cache.get("989261716598689942")//id bashe reklam
-hama1.send(`
+dot.send(`
 ناردرا لە لایەن
 <@${vex.author.id}> ` +`
 سێرڤەرەکە
@@ -104,4 +103,4 @@ client.on("ready", () => {
 });
 
 
-client.login("ODUwMzQ1OTcyMTg0Nzc2NzE0.GdhDH3.yKA0h7YDH7rgbwxRico1frU-ETrLDsfYC7BLy0")
+client.login("Token Bot")
